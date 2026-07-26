@@ -3,7 +3,7 @@
 > Details may change or become available in the future.
 
 The following report details events pertaining to a denial-of-service campaign directed at Starfall.  
-It contains an important security advisory. Please share with others you think may be impacted, or are at-risk.
+It contains an important security advisory. Please share with others you think may be impacted, or are at risk.
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ For clarity's sake, all timestamps are in EST unless written otherwise.
 
 2. July 20th, 8:30 PM - Reports of game server connection issues  
    Players who were online at the time were complaining of connection issues in-game.  
-   This causes us to investigate what the issue could be.
+   This caused us to investigate what the issue could be.
 
 3. July 21st, 12:48 AM - Sign-in requirement temporarily reverted as part of investigation
    While the change should not have caused the reported issues, the requirement was temporarily
@@ -38,7 +38,7 @@ For clarity's sake, all timestamps are in EST unless written otherwise.
    A test was conducted where all network traffic, excluding traffic from one individual, was blocked
    from the game server.
 
-    The test was a success, and we became aware the reported issue was caused by an individual
+    The test was a success, and we became aware that the reported issue was caused by an individual
     performing a denial-of-service attack on the game servers.
 
 5. July 21st, 2:00 AM - Attacker identity verified  
@@ -55,12 +55,12 @@ For clarity's sake, all timestamps are in EST unless written otherwise.
 
 ## The Evidence
 
-We cant say with certainty _why_ XlXi is doing this. His cycle of concern-trolling and batshit insane claims makes it
+We can't say with certainty _why_ XlXi is doing this. His cycle of concern-trolling and batshit insane claims makes it
 seriously difficult to tell when he is being serious or stroking his ego. We are well aware at this point that XlXi has
 been targeting Sylvessa since she was 13 back in Finobe, so this appears to be a personal vendetta rather than any _actual_
 concern. Please keep his bias in mind when he tries to slander Starfall or Sylvessa.
 
-To most of you, this is not a surprise. But, others might be left questioning these claims. So, heres the evidence that XlXi is the individual behind this.
+To most of you, this is not a surprise. But, others might be left questioning these claims. So, here's the evidence that XlXi is the individual behind this.
 
 ### Firewall Logs
 
@@ -79,7 +79,7 @@ Here's a breakdown of what these fields mean:
 
 - `SRC=`: The source IP. Where the traffic is coming from.
 - `DST=`: The destination IP. Where the traffic is going.
-- `PROTO=`: Protocol. Not relevant here, but Starfall game servers only use `UDP`
+- `PROTO=`: Protocol. Not relevant here, but Starfall game servers only use `UDP`.
 - `SPT=`: The source port. Not relevant in this breakdown, but listed for clarity.
 - `DPT=`: The destination port. This is used to determine what service on the IP the traffic should be routed to.  
   Starfall uses port ranges `23700` to `23799`. If `DPT` is within that range, the traffic is for Starfall.
@@ -113,12 +113,12 @@ A proper fix to this vulnerability is in development, and will be published as *
 
 ### Scope
 
-Latest testing reveals client versions `0.78.0.701` to `0.360.1.252096` are at-risk, but this range is not definitive.  
+Latest testing reveals client versions `0.78.0.701` to `0.360.1.252096` are at risk, but this range is not definitive.  
 As far as we know, this exploit works on clients from 2012 all the way up to 2018. **All currently public revivals are affected.**
 
 ### Mitigation
 
-Since XlXi has stopped these attacks after being privately called-out, mitigations _might_ not be required.  
+Since XlXi has stopped these attacks after being privately called out, mitigations _might_ not be required.  
 Though, we do urge system administrators to **block** all traffic from his IP address.  
 This obviously isn't foolproof, but it will give you some heads-up if, or when he attempts another attack.
 
@@ -126,7 +126,7 @@ Again, an open-source fix will be released when we can guarantee it is effective
 
 ## Conclusion
 
-That pretty much wraps it up for the exploit, at least. Theres a huge amount of disinformation about Starfall and its members coming from XlXi that we'll have
+That pretty much wraps it up for the exploit, at least. There's a huge amount of disinformation about Starfall and its members coming from XlXi that we'll have
 to cover some other time. While we are working on that, I personally hope this report is enough justification to finally cut this guy off, if you haven't
 already. Don't trust people who would rather commit actual felonies than talk things out, no matter what side they're on.
 
@@ -135,7 +135,7 @@ already. Don't trust people who would rather commit actual felonies than talk th
 Because I know some of you hate reading.
 
 - XlXi has been conducting a denial-of-service attack that uses a vulnerability in the client itself.
-- It has been used on Starfall **and** Hexagon
+- It has been used on Starfall **and** Hexagon.
 - The exploit works on clients ranging from 2012 all the way up to 2018.
 - Revival operators are urged to apply firewall rules blocking his traffic, until the team at Starfall releases an open-source fix.
-- Please be weary of his conduct and understand that he is not a trustworthy individual.
+- Please be wary of his conduct and understand that he is not a trustworthy individual.
