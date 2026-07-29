@@ -1,5 +1,16 @@
 # RakFail
 
+> [!NOTE]
+> While Stan has named the exploit "RakWrite," existing references
+> to this exploit will not be updated. Though, future references
+> should be written to use the (now) more widely known name after
+> RakWrite's publication in Retro Roblox Central/ORRH/Only Retro Roblox Here.
+
+> [!NOTE]
+> Since Stan, the original discoverer of the vulnerability, has released findings
+> made in the development of this exploit, we have pushed priority of maintaining
+> this repository down our list.
+
 This is the home of the RakFail Roblox RakNet denial-of-service exploit.  
 As there is no apparatus for disclosing this vulnerability to official channels, this is where related PoCs and patches will live.
 
