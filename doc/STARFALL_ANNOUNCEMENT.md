@@ -21,7 +21,7 @@ It contains an important security advisory. Please share with others you think m
 
 For clarity's sake, all timestamps are in EST unless written otherwise.
 
-1. July 20th, 4:30 AM - Sign-in is made mandatory to access parts of the website
+1. July 20th, 4:30 AM - Sign-in is made mandatory to access parts of the website  
    We made the unfortunate decision to lock down the website after receiving multiple reports
    of users being harassed for having an account on Starfall. We still regret doing this, but we
    are working on an opt-in visibility feature, so the site can remain open.
@@ -30,7 +30,7 @@ For clarity's sake, all timestamps are in EST unless written otherwise.
    Players who were online at the time were complaining of connection issues in-game.  
    This caused us to investigate what the issue could be.
 
-3. July 21st, 12:48 AM - Sign-in requirement temporarily reverted as part of investigation
+3. July 21st, 12:48 AM - Sign-in requirement temporarily reverted as part of investigation  
    While the change should not have caused the reported issues, the requirement was temporarily
    removed for diagnostic measures.
 
