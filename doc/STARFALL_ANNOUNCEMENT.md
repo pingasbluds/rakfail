@@ -46,7 +46,7 @@ For clarity's sake, all timestamps are in EST unless written otherwise.
    Search engines revealed that the offending IP address belonged to XlXi, owner and operator of the
    unfinished revival VirtuBrick. This point is expanded on in [The Evidence](#the-evidence).
 
-6. July 21st, 3:00 AM - Sign-in requirement reinstated
+6. July 21st, 3:00 AM - Sign-in requirement reinstated  
    Following the confirmation that the requirement was not the cause of the issue, it was reinstated.
 
 7. July 21st, 4:00 AM - Packet captures finalized, initial firewall rules created  
